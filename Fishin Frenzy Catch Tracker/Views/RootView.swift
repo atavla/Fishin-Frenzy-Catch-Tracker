@@ -78,8 +78,3 @@ struct RootView: View {
     }
 }
 
-struct RootViewPreview: PreviewProvider {
-    static var previews: some View {
-        RootView()
-    }
-}

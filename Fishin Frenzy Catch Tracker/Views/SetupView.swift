@@ -42,7 +42,7 @@ struct SetupView: View {
             AssetGraphic(name: "app_logo_hook_wave", mode: .contain, fallbackSystemImage: "water.waves")
                 .frame(height: 140)
                 .clipShape(RoundedRectangle(cornerRadius: 18, style: .continuous))
-            Text("Fishin' Frenzy")
+            Text("Fishing Game: Catch Tracker")
                 .font(.largeTitle.bold())
                 .foregroundStyle(.primary)
             Text("Count your bait. Collect the catch. Return to shore on time.")

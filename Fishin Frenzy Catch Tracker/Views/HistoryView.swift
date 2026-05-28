@@ -27,7 +27,7 @@ struct HistoryView: View {
                     .scrollContentBackground(.hidden)
                 }
             }
-            .navigationTitle("Keepnet")
+            .navigationTitle("Fishing Catch")
             .toolbar {
                 if !viewModel.sessions.isEmpty {
                     ToolbarItem(placement: .topBarTrailing) {
